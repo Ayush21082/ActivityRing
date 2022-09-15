@@ -13,6 +13,10 @@
 		44EE481928D3AC6F00CC2F04 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EE480728D3AC6800CC2F04 /* ContentView.swift */; };
 		44EE481A28D3AC6F00CC2F04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44EE480828D3AC6F00CC2F04 /* Assets.xcassets */; };
 		44EE481B28D3AC6F00CC2F04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44EE480828D3AC6F00CC2F04 /* Assets.xcassets */; };
+		44EE482528D3ACF000CC2F04 /* RingShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EE482428D3ACF000CC2F04 /* RingShape.swift */; };
+		44EE482628D3ACF000CC2F04 /* RingShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EE482428D3ACF000CC2F04 /* RingShape.swift */; };
+		44EE482828D3B4AF00CC2F04 /* Rings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EE482728D3B4AF00CC2F04 /* Rings.swift */; };
+		44EE482928D3B4AF00CC2F04 /* Rings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EE482728D3B4AF00CC2F04 /* Rings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,8 @@
 		44EE480D28D3AC6F00CC2F04 /* ActivityRings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ActivityRings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44EE481328D3AC6F00CC2F04 /* ActivityRings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ActivityRings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44EE481528D3AC6F00CC2F04 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		44EE482428D3ACF000CC2F04 /* RingShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingShape.swift; sourceTree = "<group>"; };
+		44EE482728D3B4AF00CC2F04 /* Rings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,8 @@
 			children = (
 				44EE480628D3AC6800CC2F04 /* ActivityRingsApp.swift */,
 				44EE480728D3AC6800CC2F04 /* ContentView.swift */,
+				44EE482428D3ACF000CC2F04 /* RingShape.swift */,
+				44EE482728D3B4AF00CC2F04 /* Rings.swift */,
 				44EE480828D3AC6F00CC2F04 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -177,6 +185,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				44EE481828D3AC6F00CC2F04 /* ContentView.swift in Sources */,
+				44EE482828D3B4AF00CC2F04 /* Rings.swift in Sources */,
+				44EE482528D3ACF000CC2F04 /* RingShape.swift in Sources */,
 				44EE481628D3AC6F00CC2F04 /* ActivityRingsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -186,6 +196,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				44EE481928D3AC6F00CC2F04 /* ContentView.swift in Sources */,
+				44EE482928D3B4AF00CC2F04 /* Rings.swift in Sources */,
+				44EE482628D3ACF000CC2F04 /* RingShape.swift in Sources */,
 				44EE481728D3AC6F00CC2F04 /* ActivityRingsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
